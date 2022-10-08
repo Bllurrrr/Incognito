@@ -24,7 +24,7 @@ function community(app) {
         'div', 
         [
             app.createElement('section', [
-                app.createElement('p', 'You are being taken to the Amethyst Network server (discord.gg/J3VPy5Vy8x).', {
+                app.createElement('p', 'no lol', {
                         style: {
                             'margin-bottom': '0'
                         }
