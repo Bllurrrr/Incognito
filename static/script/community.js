@@ -24,7 +24,7 @@ function community(app) {
         'div', 
         [
             app.createElement('section', [
-                app.createElement('p', 'no lol', {
+                app.createElement('p', 'debranded lol', {
                         style: {
                             'margin-bottom': '0'
                         }
