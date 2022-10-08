@@ -14,7 +14,7 @@
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#30000"
+          "color": "#00000"
         },
         "polygon": {
           "nb_sides": 5
@@ -57,7 +57,7 @@
         "speed": 10
         "direction": "none",
         "random": true,
-        "straight": true
+        "straight": false
         "out_mode": "out",
         "bounce": false,
         "attract": {
