@@ -22,7 +22,7 @@ import { Tabs } from './tabs.js';
 async function options(app) {
     document.querySelector('#open-nav').setAttribute('data-open', '');
     app.search.title.style.display = 'block';
-    app.search.title.textContent = 'Options';
+    app.search.title.textContent = 'wait when did i have a opinion';
     app.search.input.style.display = 'none';
 
     const tabs = new Tabs(app);
