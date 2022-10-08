@@ -18,10 +18,10 @@
 */
 const tips = [
     'did you know that blur made this.</a>',
-    'a.</a>',
-    'ad.</a>',
-    'xd.',
-    'no</a>'
+    'i think discord works.</a>',
+    'hey check this one out!.</a>',
+    'where is the search bar.',
+    'how to use discord pls help</a>'
 ];
 
 
@@ -36,7 +36,7 @@ function access(app) {
     app.search.logo.style.marginLeft = '0';
     app.search.submit.style.display = 'inline';
     app.search.input.style.removeProperty('display');
-    app.search.input.placeholder = 'Search the web';
+    app.search.input.placeholder = '"yo i think you can go on discord"';
     app.header.target.setAttribute('data-page', '');
     app.nav.target.style.removeProperty('display');
     document.querySelector('#open-nav').setAttribute('data-open', '');
@@ -44,10 +44,10 @@ function access(app) {
 
 
     
-    app.nav.community = app.createLink('#community', 'Community');
-    app.nav.support = app.createLink('#support', 'Support');
-    app.nav.apps = app.createLink('#apps', 'Apps');
-    app.nav.games = app.createLink('#gs', 'Games');
+    app.nav.community = app.createLink('#community', 'talk to people');
+    app.nav.support = app.createLink('#support', 'help i guess');
+    app.nav.apps = app.createLink('#apps', 'apps i guess');
+    app.nav.games = app.createLink('#gs', 'funny games');
     app.nav.settings = app.createLink('#settings', '<i class="fas fa-sliders-h secondary"></i>', {
         id: 'apps'
     })
