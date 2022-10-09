@@ -36,7 +36,7 @@ function access(app) {
     app.search.logo.style.marginLeft = '0';
     app.search.submit.style.display = 'inline';
     app.search.input.style.removeProperty('display');
-    app.search.input.placeholder = '"yo i think you can go on discord"';
+    app.search.input.placeholder = '"fr?"';
     app.header.target.setAttribute('data-page', '');
     app.nav.target.style.removeProperty('display');
     document.querySelector('#open-nav').setAttribute('data-open', '');
